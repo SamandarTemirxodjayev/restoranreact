@@ -47,7 +47,7 @@ function Slider() {
       >
         {photos.map((photo, index) => (
           <SwiperSlide key={index}>
-            <img src={photo.photo_url} alt="slide_image" />
+            <img src={photo.photo_url} alt="slide_image" className=' rounded-2xl' />
           </SwiperSlide>
         ))}
 
