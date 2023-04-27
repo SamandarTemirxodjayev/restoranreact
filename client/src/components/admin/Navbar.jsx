@@ -20,7 +20,7 @@ export default function Navbar() {
   
   <ul className='pt-32'>
     <li className='py-4'>
-      <Link to="/" className='text-gray-400 hover:text-white text-3xl'>Home</Link>
+      <Link to="http://localhost:3000/home" className='text-gray-400 hover:text-white text-3xl'>Home</Link>
     </li>
     <li className='py-4'>
       <Link to="/admin/create/catalog" className="text-gray-400 hover:text-white text-3xl">Create Catalog</Link>
